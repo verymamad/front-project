@@ -1,0 +1,17 @@
+.btn {
+    font-size: 18px;
+    background-color: #00ffff;
+    padding: 6px 12px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: none;
+}
+.btn:hover {
+    background-color: #00babd;
+    transition: 0.2s;
+}
+.btn:active {
+    background-color: #004f50;
+    color: #02dddd;
+    transition: 0.2s;
+}
