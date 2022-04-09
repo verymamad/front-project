@@ -1,12 +1,12 @@
 input:not([type = "submit"]){
     display: inline-block;
-    width: 80%;
+    width: 320px;
     height: 27px;
     border-radius: 5px;
     border: none;
 }
 textarea {
-    width: 80%;
+    width: 320px;
     height: 80px;
     resize: none;
     border-radius: 5px;
