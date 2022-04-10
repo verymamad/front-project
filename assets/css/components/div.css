@@ -1,6 +1,7 @@
 .container {
+    display: block;
     padding: 30px ;
-    margin: 200px 10%;
+    margin: 10% 20%;
     text-align: center;
     background-color:#191c1c;
     border-radius: 50px;
