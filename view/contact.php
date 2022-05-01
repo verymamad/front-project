@@ -11,18 +11,20 @@
     <div class="container">
         <h1> تماس با ما </h1>
         <form action="" method="POST">
-            <label for="email"> ایمیل: </label>
+            <div class="form">
+            <label for="email"> ایمیل</label>
             <br>
             <input type="email" name="email" id="email">
             <br>
-            <label for="title"> عنوان: </label>
+            <label for="title"> عنوان</label>
             <br>
             <input type="text" name="title" id="title">
             <br>
-            <label for="description">متن پیام: </label>
+            <label for="description">متن پیام</label>
             <br>
             <textarea name="description" id="description"></textarea>
             <br>
+            </div>
             <button class="btn" type="submit">ارسال</button>
         </form>
     </div>

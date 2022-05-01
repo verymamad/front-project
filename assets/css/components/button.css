@@ -1,17 +1,21 @@
 .btn {
     font-size: 18px;
-    background-color: #00ffff;
+    font-weight: bold;
+    background-color: #eec148;
     padding: 6px 12px;
     margin-top: 15px;
     border-radius: 15px;
     border: none;
+    color: #3f2e00;
+    text-align: left;
 }
 .btn:hover {
-    background-color: #00babd;
+    background-color: #a18435;
     transition: 0.2s;
+    color: #3f2e00;
 }
 .btn:active {
-    background-color: #004f50;
-    color: #02dddd;
+    background-color: #3f2e00;
+    color: #eec148;
     transition: 0.2s;
 }

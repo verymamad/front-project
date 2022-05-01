@@ -11,10 +11,16 @@
     <div class="container">
         <h1> ورود به سایت</h1>
         <form action="" method="POST">
-            <input type="email" name="email" id="email" placeholder="ایمیل">
+            <div class="form">
+            <label for="email">ایمیل </label>
             <br>
-            <input type="password" name="password" id="password" placeholder="رمز عبور">
+            <input type="email" name="email" id="email">
             <br>
+            <label for="email">رمز عبور</label>
+            <br>
+            <input type="password" name="password" id="password">
+            <br>
+            </div>
             <button class="btn" type="submit">ورود</button>
         </form>
     </div>
