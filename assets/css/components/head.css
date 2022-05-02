@@ -1,7 +1,10 @@
 .head {
-  float: top;
+  position: fixed;
+  top: 0;
+  width: 100%;
   background-color: #191c1c;
   padding: 10px;
+  float: top;
 }
 .logo {
   display: inline-block;
