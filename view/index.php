@@ -17,8 +17,10 @@
     </header>
     <aside>
         <div class="side-menu">
-            <nav >
-
+            <nav class="side-nav">
+            <i class="fa-solid fa-plus nav-btn add"></i><br>
+            <i class="fa-solid fa-compact-disc nav-btn"></i><br>
+            <i class="fa-solid fa-comment nav-btn"></i><br>
             </nav>
         </div>
     </aside>

@@ -11,3 +11,16 @@
   width: 55px;
   height: 100vh;
 }
+.side-nav {
+  font-size: 22px;
+  color: #e0e0e0;
+  text-align: center;
+}
+.nav-btn {
+  margin-bottom: 15px;
+}
+.nav-btn:hover {
+  color: #eec148;
+  transition: 0.5s;
+  cursor: pointer;
+}
