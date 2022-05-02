@@ -4,36 +4,36 @@
 <head>
     <link rel="stylesheet" href="../assets/css/style.css">
     <meta charset="UTF-8">
-    <title> ثبت نام </title>
+    <title>Register</title>
 </head>
 
 <body>
     <div class="container">
-        <h1> ثبت نام در سایت</h1>
+        <h1>Register</h1>
         <form action="" method="POST">
             <div class="form">
-            <label for="title">نام</label>
+            <label for="name">Name</label>
             <br>
             <input type="text" name="title" id="title">
             <br>
-            <label for="title">نام کاربری</label>
+            <label for="username">Username</label>
             <br>
             <input type="text" name="title" id="title">
             <br>
-            <label for="email">ایمیل </label>
+            <label for="email">Email</label>
             <br>
             <input type="email" name="email" id="email">
             <br>
-            <label for="email">رمز عبور</label>
+            <label for="password">Password</label>
             <br>
             <input type="password" name="password" id="password">
             <br>
-            <label for="email">تایید رمز عبور</label>
+            <label for="c-password">Confirm Password</label>
             <br>
             <input type="password" name="password" id="password">
             <br>
             </div>
-            <button class="btn" type="submit">ثبت نام</button>
+            <button class="btn" type="submit">Register</button>
         </form>
     </div>
 </body>

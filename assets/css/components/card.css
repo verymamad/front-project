@@ -1,70 +1,71 @@
 .card {
-    width: 330px;
-    height: 110px;
-    padding: 5px ;
-    margin: 10px;
-    background-color:#3d3d3d;
-    border-radius: 5px;
+  width: 330px;
+  height: 110px;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 65px;
+  background-color: #3d3d3d;
+  border-radius: 5px;
 }
 .card-img {
-    float: left;
-    vertical-align: left;
-    object-fit: cover;
-    object-position: center center;
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
-    border-radius: 5px;
+  float: left;
+  vertical-align: left;
+  object-fit: cover;
+  object-position: center center;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
-.music-img{
-    width: 205px;
-    height: auto;
+.music-img {
+  width: 205px;
+  height: auto;
 }
 .music-img:hover {
-    transition: 0.2s;
-    cursor: pointer;
+  transition: 0.2s;
+  cursor: pointer;
 }
 .file-name {
-    font-weight: bold;
-    color: #e0e0e0;
-    margin-bottom: 3px;
+  font-weight: bold;
+  color: #e0e0e0;
+  margin-bottom: 3px;
 }
 .file-author {
-    font-size: 12px;
-    color: #e0e0e0;
-    margin-bottom: 10px;
+  font-size: 12px;
+  color: #e0e0e0;
+  margin-bottom: 10px;
 }
 .texts {
-    float: left;
-    margin-right: 104px;
+  float: left;
+  margin-right: 104px;
 }
 .pic {
-    text-align: center;
+  text-align: center;
 }
 .play {
-    font-size: 40px;
-    color: #e0e0e000;
-    display: block;
-    position: absolute;
-    margin: auto;
-    padding: 35px;
+  font-size: 40px;
+  color: #e0e0e000;
+  display: block;
+  position: absolute;
+  margin: auto;
+  padding: 35px;
 }
 .play:hover {
-    color: #e0e0e0e3;
-    transition: 0.2s;
-    cursor: pointer;
+  color: #e0e0e0e3;
+  transition: 0.2s;
+  cursor: pointer;
 }
 .play:active {
-    color: #e0e0e0a2;
-    transition: 0.2s;
+  color: #e0e0e0a2;
+  transition: 0.2s;
 }
 .add-song {
-    color: #e0e0e0;
-    font-size: 25px;
-    margin-top: 3px;
+  color: #e0e0e0;
+  font-size: 25px;
+  margin-top: 3px;
 }
 .add-song:hover {
-    color: #e0e0e0ab;
-    transition: 0.2s;
-    cursor: pointer;
+  color: #e0e0e0ab;
+  transition: 0.2s;
+  cursor: pointer;
 }

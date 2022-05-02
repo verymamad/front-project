@@ -9,19 +9,19 @@
 
 <body>
     <div class="container">
-        <h1> ورود به سایت</h1>
+        <h1>Login</h1>
         <form action="" method="POST">
             <div class="form">
-            <label for="email">ایمیل </label>
+            <label for="email">Email or Username</label>
             <br>
             <input type="email" name="email" id="email">
             <br>
-            <label for="email">رمز عبور</label>
+            <label for="password">Password</label>
             <br>
             <input type="password" name="password" id="password">
             <br>
             </div>
-            <button class="btn" type="submit">ورود</button>
+            <button class="btn" type="submit">Login</button>
         </form>
     </div>
 </body>

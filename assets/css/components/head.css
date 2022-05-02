@@ -1,0 +1,61 @@
+.head {
+  float: top;
+  background-color: #191c1c;
+  padding: 10px;
+}
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 35px;
+  height: auto;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.search-box {
+  background-color: #3b3b3b;
+  padding: 10px;
+  display: inline-block;
+  width: 35%;
+  border-radius: 20px;
+  border: none;
+  text-align: left;
+  color: white;
+}
+.search-box:focus {
+  outline: none;
+}
+.search-box::placeholder {
+  text-align: left;
+}
+
+.user-icon {
+  color: #e0e0e0;
+  font-size: 28px;
+  text-align: right;
+}
+
+.head-btn {
+  float: right;
+  font-size: 15px;
+  margin-top: 0;
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: #eec148;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.sign-up-btn {
+  background-color: #eec24800;
+  color: #e0e0e0;
+}
+.sign-up-btn:hover {
+  background-color: #ffffff2c;
+  color: #e0e0e0;
+}
+.sign-up-btn:active {
+  background-color: #ffffff0e;
+  color: #e0e0e0;
+}

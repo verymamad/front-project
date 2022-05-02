@@ -1,45 +1,24 @@
 .form {
-    text-align: left;
-    direction: ltr;
+  text-align: left;
+  direction: ltr;
 }
-input:not([type = "submit"]){
-    background-color: #3b3b3b ;
-    display: inline-block;
-    width: 270px;
-    height: 27px;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 10px;
-    text-align: left;
-    color: white;
-
+input:not([type="submit"], [type="search"]) {
+  background-color: #3b3b3b;
+  display: inline-block;
+  width: 270px;
+  height: 27px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  text-align: left;
+  color: white;
 }
 textarea {
-    background-color: #3b3b3b ;
-    width: 270px;
-    height: 80px;
-    resize: none;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 10px;
-    
-}
-.search {
-    display: inline-block;
-    margin: 10px 10px 0 10px;
-    width: 500px;
-}
-.search-box {
-    padding: 10px;
-    display: inline-block;
-    width: max-content;
-}
-.search-box::placeholder {
-    text-align: left;
-}
-.bar-menu {
-    color: #e0e0e0;
-    font-size: 28px;
-    vertical-align: middle;
-    margin-left: 20px;
+  background-color: #3b3b3b;
+  width: 270px;
+  height: 80px;
+  resize: none;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
 }
