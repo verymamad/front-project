@@ -6,16 +6,7 @@
   padding: 10px;
   float: top;
 }
-.logo {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 5px;
-  width: 35px;
-  height: auto;
-}
-.logo:hover {
-  cursor: pointer;
-}
+
 .search-box {
   background-color: #3b3b3b;
   padding: 10px;
@@ -61,4 +52,15 @@
 .sign-up-btn:active {
   background-color: #ffffff0e;
   color: #e0e0e0;
+}
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 40px;
+  height: auto;
+}
+
+.logo:hover {
+  cursor: pointer;
 }

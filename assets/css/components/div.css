@@ -6,6 +6,13 @@
   border-radius: 40px;
   text-align: center;
 }
-.content {
-  margin: 65px 55px;
+@media screen and (min-width: 1px) {
+  .content {
+    margin: 65px 0;
+  }
+}
+@media screen and (min-width: 481px) {
+  .content {
+    margin: 65px 55px;
+  }
 }
