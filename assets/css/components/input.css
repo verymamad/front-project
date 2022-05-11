@@ -2,7 +2,7 @@
   text-align: left;
   direction: ltr;
 }
-input:not([type="submit"], [type="search"]) {
+input:not([type="submit"], [type="search"], [type="file"]) {
   background-color: #3b3b3b;
   display: inline-block;
   width: 270px;
@@ -21,4 +21,17 @@ textarea {
   border-radius: 5px;
   border: none;
   margin-bottom: 10px;
+}
+
+input#img-input + input {
+  display: none;
+}
+input#img-input + label {
+  display: block;
+  text-align: right;
+  font-size: 15px;
+  display: inline-block;
+  color: #8b8b8b;
+  margin-bottom: 5px;
+  text-align: right;
 }

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <title>Document</title>
+    <title>Gramaphone</title>
 </head>
 
 <body>
@@ -17,15 +17,13 @@
         <a class="btn head-btn sign-in-btn" href="./login.php">Sign In</a>
         <a class="btn head-btn sign-up-btn" href="./register.php">Sign Up</a>
     </header>
-    <nav>
-        <div class="nav">
-            <div class="nav-icons">
-                <i class="fa-solid fa-house nav-btn"></i>
-                <i class="fa-solid fa-comment nav-btn"></i>
-                <i class="fa-solid fa-plus nav-btn"> </i>
-                <i class="fa-solid fa-compact-disc nav-btn"></i>
-                <i class="fa-solid fa-user nav-btn"></i>
-            </div>
+    <nav class="nav">
+        <div class="nav-icons">
+            <a href="./index.php"><i class="fa-solid fa-house nav-btn"></i></a>
+            <a href="./chat.php"><i class="fa-solid fa-comment nav-btn"></i></a>
+            <a href="./addSong.php"><i class="fa-solid fa-plus nav-btn"> </i></a>
+            <a href="./library.php"><i class="fa-solid fa-compact-disc nav-btn"></i></a>
+            <a href="./editProfile.php"><i class="fa-solid fa-user nav-btn"></i></a>
         </div>
     </nav>
     <div class="content">

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <title>Profile</title>
+    <title>Library</title>
 </head>
 
 <body>
@@ -26,6 +26,28 @@
             <a href="./editProfile.php"><i class="fa-solid fa-user nav-btn"></i></a>
         </div>
     </nav>
+    <div class="content">
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-solid fa-compact-disc add-song"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+    </div>
+    <script src="../assets/js/audioControl.js">
+
+    </script>
 </body>
 
 </html>
