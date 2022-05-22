@@ -16,3 +16,33 @@
     margin: 65px 55px;
   }
 }
+.pfp {
+  padding-top: 45px;
+  display: block;
+  height: 150px;
+  width: 150px;
+  background-color: #272727;
+  border-radius: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.pfp:hover {
+  background-color: #222222;
+  transition: 0.2s;
+}
+.pfp:active {
+  background-color: #1a1a1a;
+  transition: 0.2s;
+}
+.pfp-icon {
+  font-size: 60px;
+  display: block;
+  margin: auto;
+  color: #383838;
+}
+.pfp-icon:hover {
+  color: #eec24869;
+  transition: 0.2s;
+}
