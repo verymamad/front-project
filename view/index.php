@@ -22,7 +22,7 @@
     </header>
     <nav class="nav">
         <div class="nav-icons">
-            <a href="./index.php"><i class="fa-solid fa-house nav-btn"></i></a>
+            <a href="./index.php"><i class="fa-solid fa-house nav-btn selected-nav"></i></a>
             <a href="./chat.php"><i class="fa-solid fa-comment nav-btn"></i></a>
             <a href="./addSong.php"><i class="fa-solid fa-plus nav-btn"> </i></a>
             <a href="./library.php"><i class="fa-solid fa-heart nav-btn"></i></a>
@@ -43,12 +43,222 @@
                     <p class="file-name">File Name</p>
                     <p class="file-author">Author</p>
                 </div>
-                <i class="fa-regular fa-heart add-song"></i>
+                <i class="fa-regular fa-heart like"></i>
                 <img class="music-img" src="../assets/css/files/music.png">
             </div>
         </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+        <article>
+            <div id="song">
+                <audio id="song-file" src="../assets/css/files/pink.mp3"></audio>
+            </div>
+            <div class="card-body">
+                <div class="pic">
+                    <img class="card-img" src="../assets/css/files/pic4.png">
+                    <i id="play-btn" class="fa-solid fa-play play"></i>
+                </div>
+                <div class="texts">
+                    <p class="file-name">File Name</p>
+                    <p class="file-author">Author</p>
+                </div>
+                <i class="fa-regular fa-heart like"></i>
+                <img class="music-img" src="../assets/css/files/music.png">
+            </div>
+        </article>
+
     </div>
+    <a href="#top" class="up-btn"><i class="fa-solid fa-angle-up up-icon"></i></a>
+
     <script src="../assets/js/audioControl.js">
+
+    </script>
+    <script src="../assets/js/like.js">
 
     </script>
 </body>

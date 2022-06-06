@@ -1,17 +1,25 @@
-.container {
-  width: max-content;
-  padding: 50px;
-  margin: 100px auto;
-  background-color: #191c1c;
-  border-radius: 40px;
-  text-align: center;
-}
 @media screen and (min-width: 1px) {
+  .container {
+    width: max-content;
+    padding: 50px;
+    margin: 100px auto;
+    background-color: #191c1c;
+    border-radius: 40px;
+    text-align: center;
+  }
   .content {
     margin: 65px 0;
   }
 }
 @media screen and (min-width: 481px) {
+  .container {
+    width: max-content;
+    padding: 50px;
+    margin: 100px auto;
+    background-color: #191c1c;
+    border-radius: 40px;
+    text-align: center;
+  }
   .content {
     margin: 65px 55px;
   }

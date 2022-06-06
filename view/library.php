@@ -25,7 +25,7 @@
             <a href="./index.php"><i class="fa-solid fa-house nav-btn"></i></a>
             <a href="./chat.php"><i class="fa-solid fa-comment nav-btn"></i></a>
             <a href="./addSong.php"><i class="fa-solid fa-plus nav-btn"> </i></a>
-            <a href="./library.php"><i class="fa-solid fa-heart nav-btn"></i></a>
+            <a href="./library.php"><i class="fa-solid fa-heart nav-btn selected-nav"></i></a>
             <a href="./editProfile.php"><i class="fa-solid fa-user nav-btn"></i></a>
         </div>
     </nav>
@@ -43,7 +43,7 @@
                     <p class="file-name">File Name</p>
                     <p class="file-author">Author</p>
                 </div>
-                <i class="fa-regular fa-heart add-song"></i>
+                <i class="fa-regular fa-heart add-song like"></i>
                 <img class="music-img" src="../assets/css/files/music.png">
             </div>
         </article>

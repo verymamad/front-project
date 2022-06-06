@@ -55,3 +55,31 @@ a {
   color: #3f2e00;
   transition: 0.2s;
 }
+.up-btn {
+  font-size: 30px;
+  position: fixed;
+  bottom: 75px;
+  right: 15px;
+  padding: 8px;
+  text-align: center;
+  display: block;
+  background-color: #eec24838;
+  backdrop-filter: blur(8px);
+  width: 55px;
+  height: 55px;
+  border-radius: 17px;
+  color: #eec248;
+}
+.up-btn:hover {
+  background-color: #eec248a1;
+  transition: 0.2s;
+  color: #eedeb2;
+}
+.up-btn:active {
+  background-color: #eec2481a;
+  color: #eec248;
+  transition: 0.2s;
+}
+.selected-nav {
+  color: #eec248;
+}

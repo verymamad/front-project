@@ -23,7 +23,7 @@
     <nav class="nav">
         <div class="nav-icons">
             <a href="./index.php"><i class="fa-solid fa-house nav-btn"></i></a>
-            <a href="./chat.php"><i class="fa-solid fa-comment nav-btn"></i></a>
+            <a href="./chat.php"><i class="fa-solid fa-comment nav-btn selected-nav"></i></a>
             <a href="./addSong.php"><i class="fa-solid fa-plus nav-btn"> </i></a>
             <a href="./library.php"><i class="fa-solid fa-heart nav-btn"></i></a>
             <a href="./editProfile.php"><i class="fa-solid fa-user nav-btn"></i></a>

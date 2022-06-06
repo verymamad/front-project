@@ -70,12 +70,12 @@
   color: #e0e0e0a3;
   transition: 0.2s;
 }
-.add-song {
+.like {
   color: #e0e0e0;
   font-size: 25px;
   margin-top: 3px;
 }
-.add-song:hover {
+.like:hover {
   color: #eec148;
   transition: 0.2s;
   cursor: pointer;
