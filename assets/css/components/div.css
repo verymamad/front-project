@@ -1,14 +1,19 @@
+@import url("colorPallete.css");
+
 @media screen and (min-width: 1px) {
   .container {
     width: max-content;
     padding: 50px;
     margin: 100px auto;
-    background-color: #191c1c;
+    background-color: var(--nb3);
     border-radius: 40px;
     text-align: center;
   }
   .content {
-    margin: 65px 0;
+    display: grid;
+    column-gap: 0;
+    margin: 55px 0px;
+    grid-template-columns: auto;
   }
 }
 @media screen and (min-width: 481px) {
@@ -16,12 +21,95 @@
     width: max-content;
     padding: 50px;
     margin: 100px auto;
-    background-color: #191c1c;
+    background-color: var(--nb3);
     border-radius: 40px;
     text-align: center;
   }
   .content {
-    margin: 65px 55px;
+    display: grid;
+    column-gap: 0;
+    margin: 55px 60px;
+    grid-template-columns: auto;
+  }
+}
+@media screen and (min-width: 781px) {
+  .container {
+    width: max-content;
+    padding: 50px;
+    margin: 100px auto;
+    background-color: var(--nb3);
+    border-radius: 40px;
+    text-align: center;
+  }
+  .content {
+    display: grid;
+    column-gap: 0;
+    margin: 55px 60px;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 1131px) {
+  .container {
+    width: max-content;
+    padding: 50px;
+    margin: 100px auto;
+    background-color: var(--nb3);
+    border-radius: 40px;
+    text-align: center;
+  }
+  .content {
+    display: grid;
+    column-gap: 0;
+    margin: 55px 60px;
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (min-width: 1481px) {
+  .container {
+    width: max-content;
+    padding: 50px;
+    margin: 100px auto;
+    background-color: var(--nb3);
+    border-radius: 40px;
+    text-align: center;
+  }
+  .content {
+    display: grid;
+    column-gap: 0;
+    margin: 55px 60px;
+    grid-template-columns: auto auto auto auto;
+  }
+}
+@media screen and (min-width: 1831px) {
+  .container {
+    width: max-content;
+    padding: 50px;
+    margin: 100px auto;
+    background-color: var(--nb3);
+    border-radius: 40px;
+    text-align: center;
+  }
+  .content {
+    display: grid;
+    column-gap: 0;
+    margin: 55px 60px;
+    grid-template-columns: auto auto auto auto auto;
+  }
+}
+@media screen and (min-width: 2181px) {
+  .container {
+    width: max-content;
+    padding: 50px;
+    margin: 100px auto;
+    background-color: var(--nb3);
+    border-radius: 40px;
+    text-align: center;
+  }
+  .content {
+    display: grid;
+    column-gap: 0;
+    margin: 55px 60px;
+    grid-template-columns: auto auto auto auto auto auto;
   }
 }
 .pfp {
@@ -51,6 +139,6 @@
   color: #383838;
 }
 .pfp-icon:hover {
-  color: #eec24869;
+  color: #48d5ee69;
   transition: 0.2s;
 }

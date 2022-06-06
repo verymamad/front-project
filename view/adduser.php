@@ -16,7 +16,8 @@
 <body>
     <header class="head">
         <button class="back-btn" onclick="history.back()"><i class="fa-solid fa-angle-left"></i></button>
-        <input class="search-box" type="search" placeholder="search">
+        <input class="search-box" type="search" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
         <a class="btn head-btn sign-in-btn" href="./login.php">Sign In</a>
         <a class="btn head-btn sign-up-btn" href="./register.php">Sign Up</a>
     </header>

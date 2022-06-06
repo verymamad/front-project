@@ -1,9 +1,11 @@
-label{ 
-    display: inline-block;
-    text-align: right;
-    font-size: 15px;
-    display: inline-block;
-    color: #8b8b8b;
-    margin-bottom: 5px;
-    text-align: right;
+@import url("colorPallete.css");
+
+label {
+  display: inline-block;
+  text-align: right;
+  font-size: 15px;
+  display: inline-block;
+  color: var(--nw4);
+  margin-bottom: 5px;
+  text-align: right;
 }

@@ -1,5 +1,7 @@
+@import url("colorPallete.css");
+
 h1 {
-    color : #eec148 ;
-    margin-bottom: 30px;
-    text-align: center;
+  color: var(--p1);
+  margin-bottom: 30px;
+  text-align: center;
 }

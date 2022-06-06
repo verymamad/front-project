@@ -15,24 +15,49 @@
 
 <body>
     <header class="head">
-        <img class="logo" src="../assets/css/files/logo-colored.png" alt="logo">
-        <input class="search-box" type="search" placeholder="search">
+        <button class="back-btn" onclick="history.back()"><i class="fa-solid fa-angle-left"></i></button>
+        <input class="search-box" type="search" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
         <a class="btn head-btn sign-in-btn" href="./login.php">Sign In</a>
         <a class="btn head-btn sign-up-btn" href="./register.php">Sign Up</a>
     </header>
-    <nav class="nav">
-        <div class="nav-icons">
-            <a href="./index.php"><i class="fa-solid fa-house nav-btn"></i></a>
-            <a href="./chat.php"><i class="fa-solid fa-comment nav-btn"></i></a>
-            <a href="./addSong.php"><i class="fa-solid fa-plus nav-btn selected-nav"> </i></a>
-            <a href="./library.php"><i class="fa-solid fa-heart nav-btn"></i></a>
-            <a href="./editProfile.php"><i class="fa-solid fa-user nav-btn"></i></a>
-        </div>
-    </nav>
-    <form action="">
 
-    </form>
-    <script src="../assets/js/fileUpload.js"></script>
+    <div class="container">
+        <h1>Add Song</h1>
+        <form action="" method="POST">
+            <label for="choose-file" class="cover-img">
+                <i class="fa-solid fa-plus add-cover"> </i>
+                <input id="choose-file" type="file" accept="image/*" />
+            </label>
+            <div class="form">
+                <label for="song-title">Song Title</label>
+                <br>
+                <input type="text" name="song-title" id="song-title">
+                <br>
+                <label for="artist">Artist</label>
+                <br>
+                <input type="text" name="artist" id="artist">
+                <br>
+                <label for="genre">Genre</label>
+                <br>
+                <select name="genre" id="genre" required>
+                    <option value="Other">Other</option>
+                    <option value="rock">Rock</option>
+                    <option value="pop">Pop</option>
+                    <option value="rap">Rap</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="edm">EDM</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="voice">Voice</option>
+                </select>
+                <label for="description">Description</label>
+                <br>
+                <textarea name="description" id="description"></textarea>
+                <br>
+            </div>
+            <button class="btn" type="submit">Apply</button>
+        </form>
+    </div>
 </body>
 
 </html>

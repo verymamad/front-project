@@ -1,37 +1,64 @@
+@import url("colorPallete.css");
+
 .form {
   text-align: left;
   direction: ltr;
 }
 input:not([type="submit"], [type="search"], [type="file"]) {
-  background-color: #3b3b3b;
+  background-color: var(--nb2);
   display: inline-block;
   width: 270px;
   height: 27px;
   border-radius: 5px;
   border: none;
+  padding: 0 7px;
   margin-bottom: 10px;
   text-align: left;
-  color: white;
+  color: var(--nw1);
 }
 textarea {
-  background-color: #3b3b3b;
+  background-color: var(--nb2);
   width: 270px;
   height: 80px;
   resize: none;
   border-radius: 5px;
   border: none;
+  padding: 0 7px;
+  margin-bottom: 10px;
+  color: var(--nw1);
+}
+select {
+  background-color: var(--nb2);
+  display: block;
+  width: 270px;
+  height: 27px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 7px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: var(--nw1);
+}
+.cover-img {
+  background-color: var(--nb2);
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
   margin-bottom: 10px;
 }
-
-input#img-input + input {
-  display: none;
+.cover-img:hover {
+  cursor: pointer;
+  background-color: #1d1f1f;
+  transition: 0.3s;
 }
-input#img-input + label {
-  display: block;
-  text-align: right;
-  font-size: 15px;
-  display: inline-block;
-  color: #8b8b8b;
-  margin-bottom: 5px;
-  text-align: right;
+.add-cover {
+  position: relative;
+  top: 65px;
+  right: 100px;
+  color: #353838;
+  font-size: 75px;
+}
+
+#choose-file {
+  display: none;
 }

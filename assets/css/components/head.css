@@ -1,22 +1,51 @@
+@import url("colorPallete.css");
+
 .head {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #191c1c;
+  background-color: var(--nb3);
   padding: 10px;
   float: top;
 }
 
-.search-box {
-  background-color: #3b3b3b;
-  padding: 10px;
+.search-icon {
   display: inline-block;
-  width: 30%;
-  border-radius: 20px;
-  border: none;
-  text-align: left;
-  color: white;
+  color: var(--nw1);
+  font-size: 25px;
+  vertical-align: middle;
+  margin-left: 5px;
 }
+.search-icon:hover {
+  cursor: pointer;
+  color: var(--nw3);
+  transition: 0.3s;
+}
+@media screen and (min-width: 1px) {
+  .search-box {
+    background-color: var(--nb2);
+    padding: 0px;
+    display: none;
+    width: 0%;
+    border-radius: 20px;
+    border: none;
+    text-align: left;
+    color: white;
+  }
+}
+@media screen and (min-width: 481px) {
+  .search-box {
+    background-color: var(--nb2);
+    padding: 10px;
+    display: inline-block;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    text-align: left;
+    color: white;
+  }
+}
+
 .search-box:focus {
   outline: none;
 }
@@ -25,7 +54,7 @@
 }
 
 .user-icon {
-  color: #e0e0e0;
+  color: var(--nw1);
   font-size: 28px;
   text-align: right;
 }
@@ -36,31 +65,35 @@
   margin-top: 0;
   margin-left: 10px;
   text-decoration: none;
-  background-color: #eec148;
+  background-color: var(--p1);
   padding: 10px 15px;
   border-radius: 20px;
 }
 
 .sign-up-btn {
   background-color: #eec24800;
-  color: #e0e0e0;
+  color: var(--nw1);
 }
 .sign-up-btn:hover {
-  background-color: #ffffff2c;
-  color: #e0e0e0;
+  background-color: #eec24800;
+  color: var(--p1);
 }
-.sign-up-btn:active {
-  background-color: #ffffff0e;
-  color: #e0e0e0;
-}
+
 .logo {
-  display: inline-block;
   vertical-align: middle;
-  margin-right: 5px;
-  width: 40px;
-  height: auto;
+  margin: 0 10px 0 2.5px;
+  font-size: 35px;
+  color: var(--nw3);
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  -ms-transition: -ms-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 .logo:hover {
   cursor: pointer;
+  color: var(--p1);
+  transition: 0.8s;
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
 }
