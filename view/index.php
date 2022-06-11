@@ -17,9 +17,6 @@
     <header class="head">
         <a href="../view/index.php"><i class="fa-solid fa-compact-disc logo"></i></a>
         <input class="search-box" type="search" placeholder="Search">
-        <i class="fa-solid fa-magnifying-glass search-icon"></i>
-        <a class="btn head-btn sign-in-btn" href="./login.php">Sign In</a>
-        <a class="btn head-btn sign-up-btn" href="./register.php">Sign Up</a>
     </header>
     <nav class="nav">
         <div class="nav-icons">
@@ -28,6 +25,8 @@
             <a href="./addSong.php"><i class="fa-solid fa-plus nav-btn"> </i></a>
             <a href="./library.php"><i class="fa-solid fa-heart nav-btn"></i></a>
             <a href="./editProfile.php"><i class="fa-solid fa-user nav-btn"></i></a>
+            <!--<a href=""><i class="fa-solid fa-right-from-bracket logout"></i></a>-->
+
         </div>
     </nav>
     <div class="content">

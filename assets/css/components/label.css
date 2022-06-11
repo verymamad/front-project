@@ -9,3 +9,60 @@ label {
   margin-bottom: 5px;
   text-align: right;
 }
+.txt {
+  display: inline-block;
+  text-align: right;
+  font-size: 20px;
+  font-weight: regular;
+  display: inline-block;
+  color: var(--nw3);
+  margin-bottom: 5px;
+  text-align: right;
+  cursor: default;
+}
+.Gramaphone {
+  display: inline-block;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bolder;
+  display: inline-block;
+  color: var(--p1);
+  margin-bottom: 5px;
+  text-align: right;
+  cursor: default;
+}
+
+.small-txt {
+  display: inline-block;
+  text-align: right;
+  font-size: 15px;
+  font-weight: normal;
+  display: inline-block;
+  color: var(--nw3);
+  margin-bottom: 5px;
+  text-align: right;
+  cursor: default;
+}
+.small-Gramaphone {
+  display: inline-block;
+  text-align: right;
+  font-size: 20px;
+  font-weight: normal;
+  display: inline-block;
+  color: var(--nw1);
+  margin-bottom: 5px;
+  text-align: right;
+  cursor: default;
+  animation-name: shine;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes shine {
+  from {
+    color: var(--nw2);
+  }
+  to {
+    color: var(--p1);
+  }
+}

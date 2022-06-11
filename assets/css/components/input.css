@@ -51,14 +51,35 @@ select {
   background-color: #1d1f1f;
   transition: 0.3s;
 }
-.add-cover {
+.add-cover-img {
   position: relative;
-  top: 65px;
-  right: 100px;
+  top: 85px;
+  right: 120px;
   color: #353838;
-  font-size: 75px;
+  font-size: 35px;
 }
-
+.add-cover-song {
+  position: relative;
+  top: 20px;
+  right: 120px;
+  color: #353838;
+  font-size: 35px;
+}
 #choose-file {
   display: none;
+}
+#choose-song {
+  display: none;
+}
+.song-file {
+  background-color: var(--nb2);
+  height: 75px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.song-file:hover {
+  cursor: pointer;
+  background-color: #1d1f1f;
+  transition: 0.3s;
 }

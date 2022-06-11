@@ -17,17 +17,19 @@
     <header class="head">
         <button class="back-btn" onclick="history.back()"><i class="fa-solid fa-angle-left"></i></button>
         <input class="search-box" type="search" placeholder="Search">
-        <i class="fa-solid fa-magnifying-glass search-icon"></i>
-        <a class="btn head-btn sign-in-btn" href="./login.php">Sign In</a>
-        <a class="btn head-btn sign-up-btn" href="./register.php">Sign Up</a>
+
     </header>
 
     <div class="container">
         <h1>Add Song</h1>
         <form action="" method="POST">
             <label for="choose-file" class="cover-img">
-                <i class="fa-solid fa-plus add-cover"> </i>
+                <i class="fa-solid fa-image add-cover-img"></i>
                 <input id="choose-file" type="file" accept="image/*" />
+            </label>
+            <label for="choose-song" class="song-file">
+                <i class="fa-solid fa-music add-cover-song"></i>
+                <input id="choose-song" type="file" accept="audio/*" />
             </label>
             <div class="form">
                 <label for="song-title">Song Title</label>

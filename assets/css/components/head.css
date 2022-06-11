@@ -21,29 +21,15 @@
   color: var(--nw3);
   transition: 0.3s;
 }
-@media screen and (min-width: 1px) {
-  .search-box {
-    background-color: var(--nb2);
-    padding: 0px;
-    display: none;
-    width: 0%;
-    border-radius: 20px;
-    border: none;
-    text-align: left;
-    color: white;
-  }
-}
-@media screen and (min-width: 481px) {
-  .search-box {
-    background-color: var(--nb2);
-    padding: 10px;
-    display: inline-block;
-    width: 30%;
-    border-radius: 20px;
-    border: none;
-    text-align: left;
-    color: white;
-  }
+.search-box {
+  background-color: var(--nb2);
+  padding: 10px;
+  display: inline-block;
+  width: 84%;
+  border-radius: 20px;
+  border: none;
+  text-align: left;
+  color: white;
 }
 
 .search-box:focus {
@@ -70,15 +56,6 @@
   border-radius: 20px;
 }
 
-.sign-up-btn {
-  background-color: #eec24800;
-  color: var(--nw1);
-}
-.sign-up-btn:hover {
-  background-color: #eec24800;
-  color: var(--p1);
-}
-
 .logo {
   vertical-align: middle;
   margin: 0 10px 0 2.5px;
@@ -90,6 +67,23 @@
 }
 
 .logo:hover {
+  cursor: pointer;
+  color: var(--p1);
+  transition: 0.8s;
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+.welcome-logo {
+  vertical-align: middle;
+  margin: 0 10px 0 2.5px;
+  font-size: 75px;
+  color: var(--nw3);
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  -ms-transition: -ms-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+.welcome-logo:hover {
   cursor: pointer;
   color: var(--p1);
   transition: 0.8s;

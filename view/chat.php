@@ -17,9 +17,7 @@
     <header class="head">
         <a href="../view/index.php"><i class="fa-solid fa-compact-disc logo"></i></a>
         <input class="search-box" type="search" placeholder="Search">
-        <i class="fa-solid fa-magnifying-glass search-icon"></i>
-        <a class="btn head-btn sign-in-btn" href="./login.php">Sign In</a>
-        <a class="btn head-btn sign-up-btn" href="./register.php">Sign Up</a>
+
     </header>
     <nav class="nav">
         <div class="nav-icons">

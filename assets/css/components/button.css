@@ -18,6 +18,7 @@ button {
   border: none;
   color: var(--nb2);
   text-align: left;
+  text-decoration: none;
 }
 .btn:hover {
   background-color: var(--p2);
@@ -72,4 +73,16 @@ a {
 
 .selected-nav {
   color: var(--nw3);
+}
+
+.sign-up-btn {
+  background-color: #eec24800;
+  color: var(--nw1);
+  text-decoration: none;
+  margin-right: 20px;
+}
+.sign-up-btn:hover {
+  background-color: #eec24800;
+  color: var(--p1);
+  transition: 0.3s;
 }
